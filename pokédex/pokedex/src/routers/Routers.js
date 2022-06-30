@@ -9,6 +9,7 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route index element={<HomePage />} />
+        <Route path = { 'pokedex/list' } element = { <Pokedex /> } />
       </Routes>
     </BrowserRouter>
   );
