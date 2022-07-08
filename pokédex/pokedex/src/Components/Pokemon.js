@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import FavoriteContext from "../Contexts/FavoriteContext";
 
 const Pokemon = (props) => {
-    const {favoritePokemons, updateFavoritePokemons} = useContext(FavoriteContext)
+  const {favoritePokemons, updateFavoritePokemons} = useContext(FavoriteContext)
   const { pokemon } = props;
   const onChosenClick = () =>{
     updateFavoritePokemons(pokemon.name)
